@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Days" constructor="DiffrenceInDays" version="0.0.1" display-name-key="DiffrenceInDays" description-key="DiffrenceInDays description" control-type="standard">
+
+    <external-service-usage enabled="false">
+
+    </external-service-usage>
+    <property name="DateValue" display-name-key="Find Remaining Project Days" description-key="Find the remaining project days from the current date" of-type="Whole.None" usage="bound" required="true" />
+
+    <property name="StartDate" display-name-key="Start Date" description-key="Please Add Start Date Here" of-type="DateAndTime.DateOnly" usage="bound" required="true"/>
+    <property name="EndDate" display-name-key="End Date" description-key="Please Add End Date Here" of-type="DateAndTime.DateOnly" usage="bound" required="true"/>
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/style.css" />
+      <!-- <css path="../node_modules/bootstrap/dist/css/bootstrap.min.css" order="1" /> -->
+    </resources>
+  </control>
+</manifest>

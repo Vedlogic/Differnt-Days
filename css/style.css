@@ -1,0 +1,12 @@
+input#dayDiffrence{
+    background-color: rgb(255 255 255 / 0%);
+    border: none;
+    border-bottom: none;
+    width: 100%;
+    font-weight: bold;
+}   
+input#dayDiffrence:hover{
+    background-color: rgb(226,226,226);
+    width: 100%;
+    font-weight: bold;
+}
